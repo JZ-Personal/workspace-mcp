@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Workspace MCP</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #121212; } a { color: #7fb3ff; } }
+  h1 { font-size: 1.9rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .sub { color: #666; margin: 0 0 2.5rem; }
+  @media (prefers-color-scheme: dark) { .sub { color: #9a9a9a; } }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  ul { padding-left: 1.25rem; }
+  footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid #e2e2e2; color: #666; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) { footer { border-top-color: #2c2c2c; color: #9a9a9a; } }
+</style>
+</head>
+<body>
+<h1>Workspace MCP</h1>
+<p class="sub">A personal, single-user automation tool.</p>
+
+<p>Workspace MCP connects its owner's own Google account to a command-line assistant running on
+the owner's personal computer, so that routine personal tasks &mdash; reading the owner's own email,
+updating the owner's own spreadsheets, managing the owner's own calendar &mdash; can be automated.</p>
+
+<p>It is not a commercial product. It is not distributed, sold, or offered to the public.
+There are no other users. The only accounts that authorize it are personal accounts belonging
+to the owner and the owner's immediate household.</p>
+
+<h2>How it works</h2>
+<p>The application runs entirely on the owner's local machine. It uses Google's official OAuth 2.0
+flow to obtain the owner's consent, and Google's published APIs to read and write data in the
+owner's own account. Access tokens are stored on the local machine in files readable only by the
+operating-system account that owns them.</p>
+
+<h2>Scope of access</h2>
+<p>Depending on which features are used, the application may access the owner's Gmail, Google Drive,
+Docs, Sheets, Calendar, Tasks, and Contacts &mdash; in every case, only within the owner's own account,
+and only in response to a direct instruction from the owner.</p>
+
+<h2>Privacy</h2>
+<ul>
+  <li>No data is transmitted to any server operated by the developer.</li>
+  <li>No data is sold, rented, traded, or shared with third parties.</li>
+  <li>No data is used for advertising or profiling.</li>
+  <li>No data is used to train or fine-tune any AI or machine learning model.</li>
+</ul>
+<p>Full details: <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions about this application: <a href="mailto:johnjzonneveld@gmail.com">johnjzonneveld@gmail.com</a></p>
+
+<footer>Workspace MCP &middot; personal use only &middot; <a href="privacy.html">Privacy Policy</a></footer>
+</body>
+</html>
